@@ -1,11 +1,11 @@
-<?php namespace QuentinBontemps\LaravelMondialRelay\Facades;
+<?php namespace Cephee\LaravelMondialRelay\Facades;
 
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class LaravelMondialRelay
- * @package QuentinBontemps\LaravelMondialRelay\Facades
+ * @package Cephee\LaravelMondialRelay\Facades
  */
 class LaravelMondialRelay extends Facade
 {
@@ -17,6 +17,6 @@ class LaravelMondialRelay extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return \QuentinBontemps\LaravelMondialRelay\Services\LaravelMondialRelay::class;
+        return \Cephee\LaravelMondialRelay\Services\LaravelMondialRelay::class;
     }
 }

@@ -1,11 +1,11 @@
-<?php namespace QuentinBontemps\LaravelMondialRelay\Services;
+<?php namespace Cephee\LaravelMondialRelay\Services;
 
 use MondialRelay\ApiClient;
 
 
 /**
  * Class LaravelMondialRelay
- * @package QuentinBontemps\LaravelMondialRelay\Services
+ * @package Cephee\LaravelMondialRelay\Services
  */
 class LaravelMondialRelay
 {
