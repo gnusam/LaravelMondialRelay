@@ -1,12 +1,12 @@
-<?php namespace Cephee\LaravelMondialRelay;
+<?php namespace gnusam\LaravelMondialRelay;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
-use Cephee\LaravelMondialRelay\Services\LaravelMondialRelay;
+use gnusam\LaravelMondialRelay\Services\LaravelMondialRelay;
 
 /**
  * Class LaravelMondialRelayServiceProvider
- * @package Cephee\LaravelMondialRelay
+ * @package gnusam\LaravelMondialRelay
  */
 class LaravelMondialRelayServiceProvider extends ServiceProvider
 {

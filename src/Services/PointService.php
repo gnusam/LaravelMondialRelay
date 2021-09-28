@@ -1,4 +1,4 @@
-<?php namespace Cephee\LaravelMondialRelay\Services;
+<?php namespace gnusam\LaravelMondialRelay\Services;
 
 
 use MondialRelay\BussinessHours\BussinessHours;

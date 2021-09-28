@@ -1,7 +1,7 @@
 {
-  "name": "cephee/laravel-mondialrelay",
+  "name": "gnusam/laravel-mondialrelay",
   "description": "Client Laravel pour l'API Mondial Relay",
-  "keywords": ["laravel", "laravel5", "mondial relay", "api"],
+  "keywords": ["laravel", "laravel8", "mondial relay", "api"],
   "require": {
     "illuminate/support": "^6.0|^7.0|^8.0",
     "quentinbontemps/php-mondialrelay-api": "^1.0"
@@ -16,13 +16,13 @@
   ],
   "autoload": {
     "psr-4": {
-      "Cephee\\LaravelMondialRelay\\": "src/"
+      "gnusam\\LaravelMondialRelay\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Cephee\\LaravelMondialRelay\\LaravelMondialRelayServiceProvider"
+        "gnusam\\LaravelMondialRelay\\LaravelMondialRelayServiceProvider"
       ]
     }
   },

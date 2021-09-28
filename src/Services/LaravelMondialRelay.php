@@ -1,11 +1,11 @@
-<?php namespace Cephee\LaravelMondialRelay\Services;
+<?php namespace gnusam\LaravelMondialRelay\Services;
 
 use MondialRelay\ApiClient;
 
 
 /**
  * Class LaravelMondialRelay
- * @package Cephee\LaravelMondialRelay\Services
+ * @package gnusam\LaravelMondialRelay\Services
  */
 class LaravelMondialRelay
 {

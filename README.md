@@ -11,7 +11,7 @@ This client allow to use the [Mondial Relay Soap API](https://api.mondialrelay.c
 
 ## Installation
 ```bash
-composer require cephee/laravel-mondialrelay
+composer require gnusam/laravel-mondialrelay
 ```
 
 If you're on Laravel 5.4 or earlier, you'll need to add the following to your  ```config/app.php``` :
@@ -19,7 +19,7 @@ If you're on Laravel 5.4 or earlier, you'll need to add the following to your  `
 ```php
 'providers' => [
     // ... 
-    \Cephee\LaravelMondialRelay\LaravelMondialRelayServiceProvider::class,
+    \gnusam\LaravelMondialRelay\LaravelMondialRelayServiceProvider::class,
 ],
 ```
 
@@ -43,7 +43,7 @@ php artisan vendor:publish --tag=laravel_mondialrelay_config
 ## Usage
 
 ```php
-use Cephee\LaravelMondialRelay\Facades\LaravelMondialRelay;
+use gnusam\LaravelMondialRelay\Facades\LaravelMondialRelay;
 
 $client = LaravelMondialRelay::client();
 

@@ -1,11 +1,11 @@
-<?php namespace Cephee\LaravelMondialRelay\Facades;
+<?php namespace gnusam\LaravelMondialRelay\Facades;
 
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class LaravelMondialRelay
- * @package Cephee\LaravelMondialRelay\Facades
+ * @package gnusam\LaravelMondialRelay\Facades
  */
 class LaravelMondialRelay extends Facade
 {
@@ -17,6 +17,6 @@ class LaravelMondialRelay extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return \Cephee\LaravelMondialRelay\Services\LaravelMondialRelay::class;
+        return \gnusam\LaravelMondialRelay\Services\LaravelMondialRelay::class;
     }
 }
